@@ -108,18 +108,6 @@ def plot_chart(df):
             x=buy_signals.index,
             y=buy_signals['low']*0.99,
             mode='markers',
-
-/-strong
-/-heart
-:>
-:o
-:-((
-:-h
-
-
-
-
-
 marker=dict(symbol='triangle-up', size=10, color='green'),
             name='Mua (RSI <30)'
         ))
